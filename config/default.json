@@ -1,0 +1,12 @@
+{
+  "app": {
+    "port": 1234
+  },
+  "mongoDB": {
+    "sourceURL": "mongodb://localhost/dcard"
+  },
+  "limiter": {
+    "legalTimeInterval": 60000,
+    "legalRate": 60
+  }
+}
